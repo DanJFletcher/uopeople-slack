@@ -1,0 +1,114 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+.hero {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        filter: brightness(0.5);
+    }
+    .inner-hero {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        quote {
+            position: relative;
+            top: -105px;
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: 470px;
+            text-align: center;
+            font-size: 3rem;
+            display: block;
+        }
+        a {
+            font-size: 4vw;
+        }
+        .disclaimer {
+            display: block;
+            margin: 60px;
+            font-size: 60%;
+            position: relative;
+            top: 30vh;
+        }
+    }
+}
+
+section.content-community {
+    background-color: #4B345D;
+    color: white;
+    width: 100%;
+    padding: 60px 20px;
+    p {
+        margin: 40px 0px;
+        max-width: 600px;
+    }
+}
+
+section.content-slack {
+    position: relative;
+    background-color: #38BA91;
+    color: white;
+    width: 100%;
+    padding: 60px 20px;
+    p {
+        margin: 40px 0px;
+        max-width: 600px;
+    }
+    
+    .container { float: right; width: 50%;}
+}
+
+footer.footer-main {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.image-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 40%;
+    overflow: hidden;
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+    }
+}
+
+.fa-users {
+    border: solid white 3px;
+    padding: 2rem;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.fa-question {
+    border: solid white 3px;
+    padding: 2rem 4rem;
+    border-radius: 50%;
+    margin-left: 20px;
+}
