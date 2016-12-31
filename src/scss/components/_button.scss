@@ -1,0 +1,27 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+a.button{
+  display:inline-block;
+	
+	font:normal normal 300 1.3em 'Open Sans';
+	text-decoration:none;	
+	
+	color:white;
+	brackground-color:transparent;
+	border:1px solid rgba(75, 52, 93, 1);
+	border-radius:100px;
+	
+	padding: .3em 1.2em;
+	margin:5px;
+			
+	background-size: 200% 100%;	
+	background-image: linear-gradient(to right, transparent 50%, rgba(75, 52, 93, 1) 50%);
+	transition: background-position .3s cubic-bezier(0.19, 1, 0.22, 1) .1s, color .5s ease 0s, background-color .5s ease;
+}
+
+a.button:hover{
+	color:rgba(255, 255, 255, 1);
+	background-color:rgba(75, 52, 93, 1);;
+	background-position: -100% 100%;
+}
